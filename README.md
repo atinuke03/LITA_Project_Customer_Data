@@ -34,10 +34,19 @@ To find the most popular subscription type, the COUNTIF function was used to cal
 ```
 ## Pivot Analysis
 Pivot analysis is a powerful data analysis technique that allows users to summarize, reorganize, and analyze large datasets. The following metrics was summarized using pivot analysis;
-Revenue by Region:
-Revenue by Subscription Type:
-Revenue by Month:
-Revenue by Region Cancellation:
+### Revenue by Region
+![Revenue by Region](https://github.com/user-attachments/assets/d5315e82-eb4b-4fa2-a433-bead57126791)
+
+### Revenue by Subscription Type
+![Revenue by Subscription Type](https://github.com/user-attachments/assets/d7bad11d-9663-4077-845c-98c0cccfdd84)
+
+### Revenue by Month
+![Revenue by Month](https://github.com/user-attachments/assets/1197da1e-b3e7-4bfd-8199-7d9de0a5be76)
+
+### Revenue by Region Cancellation
+![Uploading Revenue by Region Cancellaton.PNG…]()
+
+
 
 # Data Visualization
 ### Bar Chart diagram Showing Report for Revenue by Region
