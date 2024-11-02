@@ -38,8 +38,8 @@ Revenue by Region Cancellation:
 
 
 # Data Visualization
-### Bar Chart diagram Showing Report for Customer Data
+### Bar Chart diagram Showing Report for Revenue by Region
 ![CUSTOMER DATA BAR CHART](https://github.com/user-attachments/assets/ed607918-816b-44e2-b3d7-fe2bbab2cf30)
-### Pie Chart diagram Showing Report for Customer Data
+### Pie Chart diagram Showing Report for Revenue by Subscription type
 ![Pie Chart for Customer Data](https://github.com/user-attachments/assets/3bac9acc-6422-4d0f-bfbe-143036cbf9dd)
 
