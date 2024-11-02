@@ -32,6 +32,10 @@ To find the most popular subscription type, the COUNTIF function was used to cal
 =COUNTIF(Table4[SubscriptionType],D33774)
 =COUNTIF(Table4[SubscriptionType],D33776)
 ```
+
+# Data Visualization
+Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, maps, and infographics, data visualization tools and techniques help to make complex data more accessible, understandable, and usable. 
+
 ## Pivot Analysis
 Pivot analysis is a powerful data analysis technique that allows users to summarize, reorganize, and analyze large datasets. The following metrics was summarized using pivot analysis;
 ### Revenue by Region
@@ -46,10 +50,6 @@ Pivot analysis is a powerful data analysis technique that allows users to summar
 ### Revenue by Region Cancellation
 ![Revenue by Region Cancellaton](https://github.com/user-attachments/assets/ce058f35-7810-458a-9faa-d5c3b1fb38c3)
 
-
-
-
-# Data Visualization
 ### Bar Chart diagram Showing Report for Revenue by Region
 ![CUSTOMER DATA BAR CHART](https://github.com/user-attachments/assets/ed607918-816b-44e2-b3d7-fe2bbab2cf30)
 ### Pie Chart diagram Showing Report for Revenue by Subscription type
