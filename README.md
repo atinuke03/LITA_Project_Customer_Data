@@ -17,6 +17,10 @@ The dataset includes the following key columns:
 The data was cleaned by removing duplicates prior to data analysis. Data cleaning helps eliminate errors and allows for smoother analysis. Thereafter, excel was used to calculate metrics for the data.
 
 # Formula Used
+### Subscription Duration
+```
+=[@SubscriptionEnd]-[@SubscriptionStart]
+```
 ### Average Subscription Duration
 ```
 =AVERAGE(Table4[SubscriptionDuration])
@@ -34,8 +38,6 @@ Revenue by Region:
 Revenue by Subscription Type:
 Revenue by Month:
 Revenue by Region Cancellation:
-
-
 
 # Data Visualization
 ### Bar Chart diagram Showing Report for Revenue by Region
