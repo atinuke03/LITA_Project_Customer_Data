@@ -59,8 +59,9 @@ Pivot analysis is a powerful data analysis technique that allows users to summar
 Structured Query Language, is a standardized programming language used for managing and manipulating relational databases.
 SQL was used to analyze customer data. The following query was written to extract key insights. 
 
-Select * from [dbo].[LITA CustomerDATA]
 ```
+Select * from [dbo].[LITA CustomerDATA]
+
 DELETE from [dbo].[LITA CustomerDATA]
 where CustomerId is null
 
