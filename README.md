@@ -44,7 +44,8 @@ Pivot analysis is a powerful data analysis technique that allows users to summar
 ![Revenue by Month](https://github.com/user-attachments/assets/1197da1e-b3e7-4bfd-8199-7d9de0a5be76)
 
 ### Revenue by Region Cancellation
-![Uploading Revenue by Region Cancellaton.PNG…]()
+![Revenue by Region Cancellaton](https://github.com/user-attachments/assets/ce058f35-7810-458a-9faa-d5c3b1fb38c3)
+
 
 
 
