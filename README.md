@@ -28,6 +28,18 @@ To find the most popular subscription type, the COUNTIF function was used to cal
 =COUNTIF(Table4[SubscriptionType],D33774)
 =COUNTIF(Table4[SubscriptionType],D33776)
 ```
+## Pivot Analysis
+Pivot analysis is a powerful data analysis technique that allows users to summarize, reorganize, and analyze large datasets. The following metrics was summarized using pivot analysis;
+Revenue by Region:
+Revenue by Subscription Type:
+Revenue by Month:
+Revenue by Region Cancellation:
+
+
 
 # Data Visualization
 ### Bar Chart diagram Showing Report for Customer Data
+![CUSTOMER DATA BAR CHART](https://github.com/user-attachments/assets/ed607918-816b-44e2-b3d7-fe2bbab2cf30)
+### Pie Chart diagram Showing Report for Customer Data
+![Pie Chart for Customer Data](https://github.com/user-attachments/assets/3bac9acc-6422-4d0f-bfbe-143036cbf9dd)
+
