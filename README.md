@@ -13,10 +13,21 @@ The dataset includes the following key columns:
 7. Canceled: A flag indicating whether the subscription has been canceled, useful for tracking customer retention.
 8. Revenue: The total income generated from the subscription.
 
-# Data Cleaning
-The data was cleaned by removing duplicates prior to data analysis. Data cleaning helps eliminate errors and allows for smoother analysis.
+### Data Cleaning
+The data was cleaned by removing duplicates prior to data analysis. Data cleaning helps eliminate errors and allows for smoother analysis. Thereafter, excel was used to calculate metrics for the data.
 
-
+# Formula Used
+### Average Subscription Duration
+```
+=AVERAGE(Table4[SubscriptionDuration])
+```
+### Most popular Subscription Type
+To find the most popular subscription type, the COUNTIF function was used to calculate the total number of the three subscription type (Basic, Premium and Standard). The highest subscription count was ranked as the most popular subscription type, which is Basic. 
+```
+=COUNTIF(Table4[SubscriptionType],D33780)
+=COUNTIF(Table4[SubscriptionType],D33774)
+=COUNTIF(Table4[SubscriptionType],D33776)
+```
 
 # Data Visualization
 ### Bar Chart diagram Showing Report for Customer Data
