@@ -20,18 +20,18 @@ The data was cleaned by removing duplicates prior to data analysis. Data cleanin
 # Formula Used
 ### Subscription Duration
 ```
-=[@SubscriptionEnd]-[@SubscriptionStart]
+=(F2-E2)
 ```
 ### Average Subscription Duration
 ```
-=AVERAGE(Table4[SubscriptionDuration])
+=AVERAGE(I2:I33788)
 ```
 ### Most popular Subscription Type
 To find the most popular subscription type, the COUNTIF function was used to calculate the total number of the three subscription type (Basic, Premium and Standard). The highest subscription count was ranked as the most popular subscription type, which is Basic. 
 ```
-=COUNTIF(Table4[SubscriptionType],D33780)
-=COUNTIF(Table4[SubscriptionType],D33774)
-=COUNTIF(Table4[SubscriptionType],D33776)
+=COUNTIF(D2:D33788,D33776)
+=COUNTIF(D2:D33788,D33774)
+=COUNTIF(D2:D33788,D33777)
 ```
 
 # Data Visualization
