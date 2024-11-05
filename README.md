@@ -40,21 +40,20 @@ Data visualization is the graphical representation of information and data. By u
 ## Pivot Analysis
 Pivot analysis is a powerful data analysis technique that allows users to summarize, reorganize, and analyze large datasets. The following metrics was summarized using pivot analysis;
 ### Revenue by Region
-![Revenue by Region](https://github.com/user-attachments/assets/d5315e82-eb4b-4fa2-a433-bead57126791)
+
 
 ### Revenue by Subscription Type
-![Revenue by Subscription Type](https://github.com/user-attachments/assets/d7bad11d-9663-4077-845c-98c0cccfdd84)
 
 ### Revenue by Month
-![Revenue by Month](https://github.com/user-attachments/assets/1197da1e-b3e7-4bfd-8199-7d9de0a5be76)
 
 ### Revenue by Region Cancellation
-![Revenue by Region Cancellaton](https://github.com/user-attachments/assets/ce058f35-7810-458a-9faa-d5c3b1fb38c3)
+
 
 ### Bar Chart diagram Showing Report for Revenue by Region
-![CUSTOMER DATA BAR CHART](https://github.com/user-attachments/assets/ed607918-816b-44e2-b3d7-fe2bbab2cf30)
+
+
 ### Pie Chart diagram Showing Report for Revenue by Subscription type
-![Pie Chart for Customer Data](https://github.com/user-attachments/assets/3bac9acc-6422-4d0f-bfbe-143036cbf9dd)
+
 
 # Structured Query Language (SQL)
 Structured Query Language, is a standardized programming language used for managing and manipulating relational databases.
