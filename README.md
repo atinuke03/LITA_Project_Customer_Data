@@ -88,20 +88,16 @@ where Canceled is null
 DELETE from[dbo].[LITA CustomerDATA]
 where Revenue is null
 
-
-
 ......Total Number of Customers Per Region.......
 Select Region, Count(CustomerID) AS Total_Customers
 FROM [dbo].[LITA CustomerDATA]
 GROUP BY Region
-
 
 .......Most Popular SubscriptionType by Customer.......
 Select TOP 1 SubscriptionType, Count(CustomerID) AS Total_Customers
 FROM [dbo].[LITA CustomerDATA]
 GROUP BY SubscriptionType
 ORDER BY Total_Customers DESC
-
 
 ..........Customers who canceled their subscription within 6 months..........
 Select CustomerID, CustomerName, SubscriptionStart, SubscriptionEnd
@@ -146,5 +142,5 @@ AS CanceledSubscriptions,
 SUM(CASE WHEN Canceled = 0 THEN 1 ELSE 0 END) AS ActiveSubscriptions 
 FROM [dbo].[LITA CustomerDATA]
 ```
-
+Power BI
 
