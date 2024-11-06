@@ -155,7 +155,7 @@ The following shows the subscription trends in the region of
 - Total Revenue: The total revenue generated from the region is 67540175.
 - Cancellation Rate: The cancellation rate was acheived using calculated measures. The report showed 45% subscriptions was cancelled throughout the regions. However, 5067 (60%) subscriptions was canceled in the North, 5064 (60%) in the South and 5044 (60%) in the West respectively.
 - Maximum Subscription Duration: The maximum subscription duration for customers is for 366 days. This was acheived using calculated measures.
-- Revenue by Region: Analysis of revenue generated in the 
+- Revenue by Region: Analysis of revenue generated in the region was viewed using card visual. The region generated   
 
 
 
