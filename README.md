@@ -147,7 +147,6 @@ Powwr BI is a data visualization and business intelligence that converts data fr
 
 ## Customer Segmentation Dashboard
 
-![Customer Data Dashboard](https://github.com/user-attachments/assets/3ae755ff-dc27-4ad4-8d53-917de231cbcd)
 
 ## Summary of Customer Segmentation Dashboard
 The following shows the subscription trends in the region of   
