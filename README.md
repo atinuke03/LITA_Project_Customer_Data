@@ -146,7 +146,6 @@ FROM [dbo].[LITA CustomerDATA]
 Powwr BI is a data visualization and business intelligence that converts data from different sources to interactive dashboards and business intelligence reports. The customer data was analyzed using power BI to generate key insights on cancellations, subscription trends and interactive analysis.
 
 ## Customer Segmentation Dashboard
-![Customer Data Analysis](https://github.com/user-attachments/assets/b7663733-e685-469a-978c-663e8672b993)
 
 ## Summary of Customer Segmentation Dashboard
 The following shows the subscription trends in the region of   
