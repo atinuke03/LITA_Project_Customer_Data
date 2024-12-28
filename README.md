@@ -149,7 +149,7 @@ Powwr BI is a data visualization and business intelligence that converts data fr
 ![Customer Data Analysis](https://github.com/user-attachments/assets/57a2a7fd-75f5-4d53-8802-442e0c89a4b3)
 
 ## Summary of Customer Segmentation Dashboard
-The following shows the subscription trends in the region of   
+The following shows the subscription trends in the region:  
 - Canceled Subscriptions: This was achieved using calculated columns, that is (if Canceled = False, then 0 else 1). The report showed that 15175 of subscriptions was canceled in the North, South and West. No canceled subscription in the East. This was viewed using a card visual.
 
 - Total Revenue: The total revenue generated from the region is 67540175.
