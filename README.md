@@ -143,7 +143,7 @@ SUM(CASE WHEN Canceled = 0 THEN 1 ELSE 0 END) AS ActiveSubscriptions
 FROM [dbo].[LITA CustomerDATA]
 ```
 # Power BI
-Powwr BI is a data visualization and business intelligence that converts data from different sources to interactive dashboards and business intelligence reports. The customer data was analyzed using power BI to generate key insights on cancellations, subscription trends and interactive analysis.
+Power BI is a data visualization and business intelligence that converts data from different sources to interactive dashboards and business intelligence reports. The customer data was analyzed using power BI to generate key insights on cancellations, subscription trends and interactive analysis.
 
 ## Customer Segmentation Dashboard
 ![Customer Data Analysis](https://github.com/user-attachments/assets/57a2a7fd-75f5-4d53-8802-442e0c89a4b3)
