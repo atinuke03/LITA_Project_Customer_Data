@@ -69,6 +69,7 @@ Select Region, Count(CustomerID) AS Total_Customers
 FROM [dbo].[LITA CustomerDATA]
 GROUP BY Region
 ```
+![TOTAL NO OF CUSTOMERS PER REGION](https://github.com/user-attachments/assets/7c479b18-86fc-476e-bda5-f77a349b34b3)
 
 ### Most Popular SubscriptionType by Customer
 ```
@@ -77,6 +78,7 @@ FROM [dbo].[LITA CustomerDATA]
 GROUP BY SubscriptionType
 ORDER BY Total_Customers DESC
 ```
+![MOST POPULAR SUBSCRIPTION TYPE](https://github.com/user-attachments/assets/7330dda6-eef3-4ae7-a91c-8bc2786ad126)
 
 ### Customers who canceled their subscription within 6 months 
 ```
@@ -85,6 +87,7 @@ FROM [dbo].[LITA CustomerDATA]
 WHERE Canceled = 1 
 AND DATEDIFF(MONTH, SubscriptionStart, SubscriptionEnd) <=6;
 ```
+![CANCELLED SUBSCRIPTION WITHIN 6 MONTHS](https://github.com/user-attachments/assets/2098a41a-7262-4e7c-b837-cb1c618fcaa8)
 
 ### Average Subscription duration for all customers
 ```
@@ -92,6 +95,7 @@ Select AVG(DATEDIFF(DAY, SubscriptionStart, SubscriptionEnd)) AS Average_Subscri
 FROM [dbo].[LITA CustomerDATA]
 Where SubscriptionStart IS NOT NULL AND SubscriptionEnd IS NOT NULL
 ```
+![AVERAGE SUBSCRIPTION DURATION](https://github.com/user-attachments/assets/9d88ec22-3e47-42a6-8f7d-b654dd5c816e)
 
 ### Customers with subscriptions longer than 12 months
 ```
@@ -102,6 +106,7 @@ Where DATEDIFF(MONTH, SubscriptionStart, SubscriptionEnd) > 12
 AND SubscriptionStart IS NOT NULL
 AND SubscriptionStart IS NOT NULL
 ```
+![SUBSCRIPTIONS LONGER THAN 12 MONTHS](https://github.com/user-attachments/assets/dbd8ee67-987b-4e96-8784-05e9eae1d9eb)
 
 ### Total revenue by subscription type
 ```
@@ -110,6 +115,8 @@ SUM(Revenue) AS TotalRevenue
 FROM [dbo].[LITA CustomerDATA]
 GROUP BY SubscriptionType
 ```
+![TOTAL REVENUE BY SUBSCRIPTION TYPE](https://github.com/user-attachments/assets/2fbc9bf4-e3d3-4ad2-b948-2213d7d3e5d4)
+
 ### Top 3 regions by subscription cancellations
 ```
 Select TOP 3 Region, Count(*) AS Canceled_Subscriptions
@@ -118,6 +125,7 @@ Where Canceled = 1
 GROUP BY Region
 ORDER BY Canceled_Subscriptions DESC
 ```
+![TOP 3 REGIONS SUBSCRIPTION CANCELLATION](https://github.com/user-attachments/assets/1284b261-7a8c-4a42-8910-d782ec518882)
 
 ### Total number of active and canceled subscriptions
 ```
@@ -126,6 +134,7 @@ AS CanceledSubscriptions,
 SUM(CASE WHEN Canceled = 0 THEN 1 ELSE 0 END) AS ActiveSubscriptions 
 FROM [dbo].[LITA CustomerDATA]
 ```
+![NO OF ACTIVE SUBSCRIPTIONS](https://github.com/user-attachments/assets/44922826-fb40-43c4-ad63-c2ae1f70c281)
 
 # Power BI
 Power BI is a data visualization and business intelligence that converts data from different sources to interactive dashboards and business intelligence reports. The customer data was analyzed using power BI to generate key insights on cancellations, subscription trends and interactive analysis.
