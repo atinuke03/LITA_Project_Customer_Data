@@ -2,21 +2,28 @@
 
 ## Outline
 [Project Overview](#project-overview)
+
 [Data Collected](#data-collected)
+
 [Data Cleaning](data-cleaning)
+
 [Formula Used](#formula-used)
+
 [Data Visualization](#data-visualization)
+
 [Pivot Analysis](#piviot-analysis)
+
 [Structured Query Language](#structured-query-language) 
+
 [Power BI](#power-bi)
+
 [Customer Segmentation Dashboard](#customer-segmentation-dashboard)
+
 [Summary of Customer Segmentation Dashboard](#summary-of-segmentation-dashboard)
 
 
 # Project Overview
 This project involves analyzing customer data for a subscription service to identify  segments and trends. The goal is to understand customer behavior, track subscription types, and identify key trends in cancellations and renewals using EXcel, SQL and Power BI.
-
-
 
 # Data Collected
 ## Data Structure
