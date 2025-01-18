@@ -3,7 +3,7 @@
 ## Outline
 [Project Overview](#project-overview)
 
-[Data Collected](#data-collected)
+[Data Structure](#data-structure)
 
 [Data Cleaning](data-cleaning)
 
@@ -14,8 +14,6 @@
 [Pivot Analysis](#piviot-analysis)
 
 [Structured Query Language](#structured-query-language) 
-
-[Power BI](#power-bi)
 
 [Customer Data dashboard](#customer-data-dashboard)
 
